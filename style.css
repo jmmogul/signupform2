@@ -1,0 +1,170 @@
+body{
+    background-image: url(image/tumblr_ng37kbjFNO1qfirfao1_1280.jpg);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times;
+    height: 1000px;
+    padding: px;
+}
+.header1{
+    background-color:rgb(32, 178, 170) ;
+    height: 10px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border:none;
+   
+}
+.header2{
+    margin-top: 10px;
+    background-color:rgb(64, 181, 173);
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    left:0px
+    
+
+}
+
+.headerp{
+    text-decoration: overline;
+    font-style:oblique;
+  
+}
+img{
+    height: 50px;
+    width: 200px;
+    color:rgb(143, 188, 139) ;
+    margin-right: 4px;
+}
+
+.sign-up-box{
+    margin: auto;
+    height: 480px;
+    width: 320px;
+    background-color: rgb(255, 250, 250)    ;
+    outline: none;
+    
+    margin-top: 100px;
+}
+.login-box{
+    margin: auto;
+    height: 250px;
+    width: 320px;
+    background-color: rgb(255, 250, 250)    ;
+    outline: none;
+
+}
+h1{ padding-top: 5px;
+    text-align: center;
+    background-color:  rgb(32, 178, 170);
+    border-radius:10px ;
+    box-shadow: 3px 2px 10px gray;
+    padding-bottom: 7px;
+}
+h4{
+    text-align: center;
+    background-color: ;
+}
+
+form{
+    padding-left: 15px;
+    
+
+}
+
+form label{
+    display: flex;
+    margin-top: 5px;
+
+}
+
+form input{
+    width: 250px;
+    border-radius: 5px;
+    border:solid;
+    border-width: 1px;
+    height:20px ;
+    margin-top: 5px;
+
+}
+
+form input[type="button"]{
+    background-color:rgb(95, 158, 160) ;
+    border-radius: 7px;
+    border: none;
+    width: 258px;
+    height: 25px;
+    color: white;
+    margin-top: 20px;
+}
+
+.p1{ font-size: 12px;
+    text-decoration: wavy;
+    text-align: center;
+    margin-left: -50px;
+
+}
+
+.p2{
+    font-size: 15px;
+    text-decoration: wavy;
+    text-align: center;
+    color: rgb(159, 226, 191);}
+    
+   footer{
+
+  
+    background-color: rgb(120, 119, 119);
+    height: 50opx;
+    position: absolute;
+    bottom: -499px;
+    right: 0px;
+    left: 0px;
+   }
+      .icons {
+        display: flex;
+        justify-content: center;
+      }
+   .icons a {
+    background-color:white;
+    border-radius: 50%;
+    padding: 10px;
+    margin:10px;
+    text-decoration: none;}
+    
+    .icons a i{ 
+        color:black;
+        opacity: o.9;
+
+    }
+    
+   
+
+   .navbar{
+    
+    
+display: flex;
+justify-content: center;}
+
+    .navbar li  {
+        color: white;
+        margin: 20px;
+        text-decoration: none;
+        opacity: 0.7;
+        list-style: none;
+
+    }
+   
+
+   .copy{
+    text-align: center;
+    list-style: none;
+    font-family: "tahoma";
+    font-weight: 400;
+    color: white;
+    background-color: black;
+
+   }
